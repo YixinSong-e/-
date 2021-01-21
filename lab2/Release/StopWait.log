@@ -1,0 +1,18 @@
+﻿  stdafx.cpp
+  GBNRdtReceiver.cpp
+c:\users\adminstrion\desktop\计算机网络\lab2\gbnrdtreceiver.cpp(49): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+  GBNRdtSender.cpp
+c:\users\adminstrion\desktop\计算机网络\lab2\gbnrdtsender.cpp(110): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+  SRRdtReceiver.cpp
+c:\users\adminstrion\desktop\计算机网络\lab2\srrdtreceiver.cpp(163): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+  SRRdtSender.cpp
+c:\users\adminstrion\desktop\计算机网络\lab2\srrdtsender.cpp(101): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+  StopWait.cpp
+c:\users\adminstrion\desktop\计算机网络\lab2\stopwait.cpp(21): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: 参见“freopen”的声明
+  StopWaitRdtReceiver.cpp
+  StopWaitRdtSender.cpp
+  TCPRdtReceiver.cpp
+c:\users\adminstrion\desktop\计算机网络\lab2\tcprdtreceiver.cpp(49): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+  TCPRdtSender.cpp
+c:\users\adminstrion\desktop\计算机网络\lab2\tcprdtsender.cpp(124): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?

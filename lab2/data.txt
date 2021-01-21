@@ -1,0 +1,1170 @@
+******模拟网络环境******：模拟网络环境初始化...
+******模拟网络环境******：模拟网络环境启动...
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 29555, AAAAAAAAAAAAAAAAAAAA
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 29555, AAAAAAAAAAAAAAAAAAAA
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 29555, ....................
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 29555, ....................
+发送方窗口变化前
+( 1 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+发送方发送报文: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+发送方发送报文: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 29555, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 29555, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+发送方定时器时间到，重发上次发送的报文: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 26984, BBBBBBBBBBBBBBBBBBBB
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
+接收方发送确认报文: seqnum = 2, acknum = 2, checksum = 26984, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+接收方重新发送上次的确认报文: seqnum = 2, acknum = 2, checksum = 26984, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方重新发送上次的确认报文: seqnum = 2, acknum = 2, checksum = 26984, ....................
+发送方收到ACK回复: seqnum = 2, acknum = 2, checksum = 26984, ....................
+发送方窗口变化前
+( 2 3 4 5 )
+发送方窗口发生变化后
+( 3 4 5 )
+发送方定时器时间到，重发上次发送的报文: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 24413, CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
+接收方发送确认报文: seqnum = 3, acknum = 3, checksum = 24413, ....................
+发送方收到ACK回复: seqnum = 3, acknum = 3, checksum = 24413, ....................
+发送方窗口变化前
+( 3 4 5 )
+发送方窗口发生变化后
+( 4 5 )
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 21842, DDDDDDDDDDDDDDDDDDDD
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
+接收方发送确认报文: seqnum = 4, acknum = 4, checksum = 21842, ....................
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 19271, EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
+接收方发送确认报文: seqnum = 5, acknum = 5, checksum = 19271, ....................
+发送方收到ACK回复: seqnum = 5, acknum = 5, checksum = 19271, ....................
+发送方窗口变化前
+( 4 5 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 6, acknum = -1, checksum = 16700, FFFFFFFFFFFFFFFFFFFF
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 11566, HHHHHHHHHHHHHHHHHHHH
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 8995, IIIIIIIIIIIIIIIIIIII
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 16700, FFFFFFFFFFFFFFFFFFFF
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
+接收方发送确认报文: seqnum = 6, acknum = 6, checksum = 16700, ....................
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = 7, acknum = 7, checksum = 14129, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 8995, IIIIIIIIIIIIIIIIIIII
+接收方重新发送上次的确认报文: seqnum = 7, acknum = 7, checksum = 14129, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 6, acknum = -1, checksum = 16700, FFFFFFFFFFFFFFFFFFFF
+发送方定时器时间到，重发上次发送的报文: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+发送方定时器时间到，重发上次发送的报文: seqnum = 0, acknum = -1, checksum = 11566, HHHHHHHHHHHHHHHHHHHH
+发送方定时器时间到，重发上次发送的报文: seqnum = 1, acknum = -1, checksum = 8995, IIIIIIIIIIIIIIIIIIII
+发送方收到ACK回复: seqnum = 6, acknum = 6, checksum = 16700, ....................
+发送方窗口变化前
+( 6 7 0 1 )
+发送方窗口发生变化后
+( 7 0 1 )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 6, acknum = -1, checksum = 16700, FFFFFFFFFFFFFFFFFFFF
+接收方重新发送上次的确认报文: seqnum = 7, acknum = 7, checksum = 14129, ....................
+发送方收到ACK回复: seqnum = 7, acknum = 7, checksum = 14129, ....................
+发送方窗口变化前
+( 7 0 1 )
+发送方窗口发生变化后
+( 0 1 )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 14129, GGGGGGGGGGGGGGGGGGGG
+接收方重新发送上次的确认报文: seqnum = 7, acknum = 7, checksum = 14129, ....................
+收到3个重复ack，执行快速重传: seqnum = 0, acknum = -1, checksum = 11566, HHHHHHHHHHHHHHHHHHHH
+收到重复ack = 7执行快速重传
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 11566, HHHHHHHHHHHHHHHHHHHH
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
+接收方发送确认报文: seqnum = 0, acknum = 0, checksum = 11566, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 0, acknum = -1, checksum = 11566, HHHHHHHHHHHHHHHHHHHH
+发送方定时器时间到，重发上次发送的报文: seqnum = 1, acknum = -1, checksum = 8995, IIIIIIIIIIIIIIIIIIII
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 8995, IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 8995, ....................
+发送方收到ACK回复: seqnum = 0, acknum = 0, checksum = 11566, ....................
+发送方窗口变化前
+( 0 1 )
+发送方窗口发生变化后
+( 1 )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 11566, HHHHHHHHHHHHHHHHHHHH
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 8995, ....................
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 8995, ....................
+发送方窗口变化前
+( 1 )
+发送方窗口发生变化后
+( )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 11566, HHHHHHHHHHHHHHHHHHHH
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 8995, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 8995, IIIIIIIIIIIIIIIIIIII
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 8995, ....................
+发送方发送报文: seqnum = 2, acknum = -1, checksum = 6424, JJJJJJJJJJJJJJJJJJJJ
+发送方发送报文: seqnum = 3, acknum = -1, checksum = 3853, KKKKKKKKKKKKKKKKKKKK
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 1282, LLLLLLLLLLLLLLLLLLLL
+发送方发送报文: seqnum = 5, acknum = -1, checksum = 64246, MMMMMMMMMMMMMMMMMMMM
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 6424, JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
+接收方发送确认报文: seqnum = 2, acknum = 2, checksum = 6424, ....................
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 3853, KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
+接收方发送确认报文: seqnum = 3, acknum = 3, checksum = 3853, ....................
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 1282, LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = 4, acknum = 4, checksum = 1282, ....................
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 64246, MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
+接收方发送确认报文: seqnum = 5, acknum = 5, checksum = 64246, ....................
+发送方收到ACK回复: seqnum = 2, acknum = 2, checksum = 6424, /...................
+发送方窗口变化前
+( 2 3 4 5 )
+发送方窗口发生变化后
+( 3 4 5 )
+发送方收到ACK回复: seqnum = 3, acknum = 3, checksum = 3853, ....................
+发送方窗口变化前
+( 3 4 5 )
+发送方窗口发生变化后
+( 4 5 )
+发送方收到ACK回复: seqnum = 4, acknum = 4, checksum = 1282, ....................
+发送方窗口变化前
+( 4 5 )
+发送方窗口发生变化后
+( 5 )
+发送方收到ACK回复: seqnum = 5, acknum = 5, checksum = 64246, ....................
+发送方窗口变化前
+( 5 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 6, acknum = -1, checksum = 61675, NNNNNNNNNNNNNNNNNNNN
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 59104, OOOOOOOOOOOOOOOOOOOO
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 56541, PPPPPPPPPPPPPPPPPPPP
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 53970, QQQQQQQQQQQQQQQQQQQQ
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 61675, NNNNNNNNNNNNNNNNNNNN
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
+接收方发送确认报文: seqnum = 6, acknum = 6, checksum = 61675, ....................
+发送方收到ACK回复: seqnum = 6, acknum = 6, checksum = 61675, ....................
+发送方窗口变化前
+( 6 7 0 1 )
+发送方窗口发生变化后
+( 7 0 1 )
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 59104, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
+接收方发送确认报文: seqnum = 7, acknum = 7, checksum = 59104, ....................
+发送方收到ACK回复: seqnum = 7, acknum = 7, checksum = 59104, ....................
+发送方窗口变化前
+( 7 0 1 )
+发送方窗口发生变化后
+( 0 1 )
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 56541, PPPPPPPPPPPPPPPPPPPP
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
+接收方发送确认报文: seqnum = 0, acknum = 0, checksum = 56541, ....................
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 53970, QQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 53970, ....................
+发送方收到ACK回复: seqnum = 0, acknum = 0, checksum = 56541, /...................
+发送方窗口变化前
+( 0 1 )
+发送方窗口发生变化后
+( 1 )
+发送方定时器时间到，重发上次发送的报文: seqnum = 1, acknum = -1, checksum = 53970, QQQQQQQQQQQQQQQQQQQQ
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 53970, QQQQQQQQQQQQQQQQQQQQ
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 53970, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 1, acknum = -1, checksum = 53970, QQQQQQQQQQQQQQQQQQQQ
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 53970, QQQQQQQQQQQQQQQQQQQQ
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 53970, ....................
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 53970, ....................
+发送方窗口变化前
+( 1 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 2, acknum = -1, checksum = 51399, RRRRRRRRRRRRRRRRRRRR
+发送方发送报文: seqnum = 3, acknum = -1, checksum = 48828, SSSSSSSSSSSSSSSSSSSS
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 46257, TTTTTTTTTTTTTTTTTTTT
+发送方发送报文: seqnum = 5, acknum = -1, checksum = 43686, UUUUUUUUUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 51399, RRRRRRRRRRRRRRRRRRRR
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = 2, acknum = 2, checksum = 51399, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 46257, TTTTTTTTTTTTTTTTTTTT
+接收方重新发送上次的确认报文: seqnum = 2, acknum = 2, checksum = 51399, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 43686, UUUUUUUUUUUUUUUUUUUU
+接收方重新发送上次的确认报文: seqnum = 2, acknum = 2, checksum = 51399, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 2, acknum = -1, checksum = 51399, RRRRRRRRRRRRRRRRRRRR
+发送方定时器时间到，重发上次发送的报文: seqnum = 3, acknum = -1, checksum = 48828, SSSSSSSSSSSSSSSSSSSS
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 46257, TTTTTTTTTTTTTTTTTTTT
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 43686, UUUUUUUUUUUUUUUUUUUU
+发送方收到ACK回复: seqnum = 2, acknum = 2, checksum = 51399, ....................
+发送方窗口变化前
+( 2 3 4 5 )
+发送方窗口发生变化后
+( 3 4 5 )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 2, acknum = -1, checksum = 51399, RRRRRRRRRRRRRRRRRRRR
+接收方重新发送上次的确认报文: seqnum = 2, acknum = 2, checksum = 51399, ....................
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 48828, SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
+接收方发送确认报文: seqnum = 3, acknum = 3, checksum = 48828, ....................
+发送方收到ACK回复: seqnum = 3, acknum = 3, checksum = 48828, ....................
+发送方窗口变化前
+( 3 4 5 )
+发送方窗口发生变化后
+( 4 5 )
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 46257, TTTTTTTTTTTTTTTTTTTT
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
+接收方发送确认报文: seqnum = 4, acknum = 4, checksum = 46257, ....................
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 43686, UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
+接收方发送确认报文: seqnum = 5, acknum = 5, checksum = 43686, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 46257, TTTTTTTTTTTTTTTTTTTT
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 43686, UUUUUUUUUUUUUUUUUUUU
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 46257, TTTTTTTTTTTTTTTTTTTT
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 43686, ....................
+发送方收到ACK回复: seqnum = 5, acknum = 5, checksum = 43686, ....................
+发送方窗口变化前
+( 4 5 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 6, acknum = -1, checksum = 41115, VVVVVVVVVVVVVVVVVVVV
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 38544, WWWWWWWWWWWWWWWWWWWW
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 35981, XXXXXXXXXXXXXXXXXXXX
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 33410, YYYYYYYYYYYYYYYYYYYY
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 41115, VVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
+接收方发送确认报文: seqnum = 6, acknum = 6, checksum = 41115, ....................
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 38544, WWWWWWWWWWWWWWWWWWWW
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = 7, acknum = 7, checksum = 38544, ....................
+发送方收到ACK回复: seqnum = 6, acknum = 6, checksum = 41115, ....................
+发送方窗口变化前
+( 6 7 0 1 )
+发送方窗口发生变化后
+( 7 0 1 )
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 35981, XXXXXXXXXXXXXXXXXXXX
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
+接收方发送确认报文: seqnum = 0, acknum = 0, checksum = 35981, ....................
+发送方收到ACK回复: seqnum = 7, acknum = 7, checksum = 38544, ....................
+发送方窗口变化前
+( 7 0 1 )
+发送方窗口发生变化后
+( 0 1 )
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 33410, YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 33410, ....................
+发送方收到ACK回复: seqnum = 0, acknum = 0, checksum = 35981, ....................
+发送方窗口变化前
+( 0 1 )
+发送方窗口发生变化后
+( 1 )
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 33410, ....................
+发送方窗口变化前
+( 1 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 2, acknum = -1, checksum = 30839, ZZZZZZZZZZZZZZZZZZZZ
+发送方发送报文: seqnum = 3, acknum = -1, checksum = 29553, AAAAAAAAAAAAAAAAAAAA
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 26982, BBBBBBBBBBBBBBBBBBBB
+发送方发送报文: seqnum = 5, acknum = -1, checksum = 24411, CCCCCCCCCCCCCCCCCCCC
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 2, acknum = -1, checksum = 30839, [ZZZZZZZZZZZZZZZZZZZ
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 33410, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 29553, AAAAAAAAAAAAAAAAAAAA
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 33410, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 26982, BBBBBBBBBBBBBBBBBBBB
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 33410, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 2, acknum = -1, checksum = 30839, ZZZZZZZZZZZZZZZZZZZZ
+发送方定时器时间到，重发上次发送的报文: seqnum = 3, acknum = -1, checksum = 29553, AAAAAAAAAAAAAAAAAAAA
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 26982, BBBBBBBBBBBBBBBBBBBB
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 24411, CCCCCCCCCCCCCCCCCCCC
+收到3个重复ack，执行快速重传: seqnum = 2, acknum = -1, checksum = 30839, ZZZZZZZZZZZZZZZZZZZZ
+收到重复ack = 1执行快速重传
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 24411, CCCCCCCCCCCCCCCCCCCC
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 33410, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 29553, BAAAAAAAAAAAAAAAAAAA
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 33410, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 2, acknum = -1, checksum = 30839, ZZZZZZZZZZZZZZZZZZZZ
+发送方定时器时间到，重发上次发送的报文: seqnum = 3, acknum = -1, checksum = 29553, AAAAAAAAAAAAAAAAAAAA
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 26982, BBBBBBBBBBBBBBBBBBBB
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 24411, CCCCCCCCCCCCCCCCCCCC
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 26982, BBBBBBBBBBBBBBBBBBBB
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 33410, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 24411, CCCCCCCCCCCCCCCCCCCC
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 33410, ....................
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 30839, ZZZZZZZZZZZZZZZZZZZZ
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
+接收方发送确认报文: seqnum = 2, acknum = 2, checksum = 30839, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 2, acknum = -1, checksum = 30839, ZZZZZZZZZZZZZZZZZZZZ
+发送方定时器时间到，重发上次发送的报文: seqnum = 3, acknum = -1, checksum = 29553, AAAAAAAAAAAAAAAAAAAA
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 26982, BBBBBBBBBBBBBBBBBBBB
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 24411, CCCCCCCCCCCCCCCCCCCC
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 29553, AAAAAAAAAAAAAAAAAAAA
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
+接收方发送确认报文: seqnum = 3, acknum = 3, checksum = 29553, ....................
+收到3个重复ack，执行快速重传: seqnum = 2, acknum = -1, checksum = 30839, ZZZZZZZZZZZZZZZZZZZZ
+收到重复ack = 1执行快速重传
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 26982, BBBBBBBBBBBBBBBBBBBB
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
+接收方发送确认报文: seqnum = 4, acknum = 4, checksum = 26982, ....................
+发送方收到ACK回复: seqnum = 2, acknum = 2, checksum = 30839, ....................
+发送方窗口变化前
+( 2 3 4 5 )
+发送方窗口发生变化后
+( 3 4 5 )
+发送方收到ACK回复: seqnum = 4, acknum = 4, checksum = 26982, ....................
+发送方窗口变化前
+( 3 4 5 )
+发送方窗口发生变化后
+( 5 )
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 24411, CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
+接收方发送确认报文: seqnum = 5, acknum = 5, checksum = 24411, ....................
+发送方收到ACK回复: seqnum = 5, acknum = 5, checksum = 24411, ....................
+发送方窗口变化前
+( 5 )
+发送方窗口发生变化后
+( )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 2, acknum = -1, checksum = 30839, ZZZZZZZZZZZZZZZZZZZZ
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 24411, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 29553, AAAAAAAAAAAAAAAAAAAA
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 24411, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 26982, BBBBBBBBBBBBBBBBBBBB
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 24411, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 24411, DCCCCCCCCCCCCCCCCCCC
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 24411, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 2, acknum = -1, checksum = 30839, [ZZZZZZZZZZZZZZZZZZZ
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 24411, ....................
+发送方发送报文: seqnum = 6, acknum = -1, checksum = 21840, DDDDDDDDDDDDDDDDDDDD
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 19269, EEEEEEEEEEEEEEEEEEEE
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 16706, FFFFFFFFFFFFFFFFFFFF
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 14135, GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 21840, DDDDDDDDDDDDDDDDDDDD
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
+接收方发送确认报文: seqnum = 6, acknum = 6, checksum = 21840, ....................
+发送方收到ACK回复: seqnum = 6, acknum = 6, checksum = 21840, ....................
+发送方窗口变化前
+( 6 7 0 1 )
+发送方窗口发生变化后
+( 7 0 1 )
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 19269, EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
+接收方发送确认报文: seqnum = 7, acknum = 7, checksum = 19269, ....................
+发送方收到ACK回复: seqnum = 7, acknum = 7, checksum = 19269, ....................
+发送方窗口变化前
+( 7 0 1 )
+发送方窗口发生变化后
+( 0 1 )
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 16706, FFFFFFFFFFFFFFFFFFFF
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
+接收方发送确认报文: seqnum = 0, acknum = 0, checksum = 16706, ....................
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 14135, GGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 14135, ....................
+发送方收到ACK回复: seqnum = 0, acknum = 0, checksum = 16706, ....................
+发送方窗口变化前
+( 0 1 )
+发送方窗口发生变化后
+( 1 )
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 14135, ....................
+发送方窗口变化前
+( 1 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 2, acknum = -1, checksum = 11564, HHHHHHHHHHHHHHHHHHHH
+发送方发送报文: seqnum = 3, acknum = -1, checksum = 8993, IIIIIIIIIIIIIIIIIIII
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 6422, JJJJJJJJJJJJJJJJJJJJ
+发送方发送报文: seqnum = 5, acknum = -1, checksum = 3851, KKKKKKKKKKKKKKKKKKKK
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 11564, HHHHHHHHHHHHHHHHHHHH
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
+接收方发送确认报文: seqnum = 2, acknum = 2, checksum = 11564, ....................
+发送方收到ACK回复: seqnum = 2, acknum = 2, checksum = 11564, ....................
+发送方窗口变化前
+( 2 3 4 5 )
+发送方窗口发生变化后
+( 3 4 5 )
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 8993, IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
+接收方发送确认报文: seqnum = 3, acknum = 3, checksum = 8993, ....................
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 4, acknum = -1, checksum = 6422, KJJJJJJJJJJJJJJJJJJJ
+接收方重新发送上次的确认报文: seqnum = 3, acknum = 3, checksum = 8993, ....................
+发送方收到ACK回复: seqnum = 3, acknum = 3, checksum = 8993, /...................
+发送方窗口变化前
+( 3 4 5 )
+发送方窗口发生变化后
+( 4 5 )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 3851, KKKKKKKKKKKKKKKKKKKK
+接收方重新发送上次的确认报文: seqnum = 3, acknum = 3, checksum = 8993, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 6422, JJJJJJJJJJJJJJJJJJJJ
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 3851, KKKKKKKKKKKKKKKKKKKK
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 3851, LKKKKKKKKKKKKKKKKKKK
+接收方重新发送上次的确认报文: seqnum = 3, acknum = 3, checksum = 8993, ....................
+收到3个重复ack，执行快速重传: seqnum = 4, acknum = -1, checksum = 6422, JJJJJJJJJJJJJJJJJJJJ
+收到重复ack = 3执行快速重传
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 6422, JJJJJJJJJJJJJJJJJJJJ
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 3851, KKKKKKKKKKKKKKKKKKKK
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 6422, JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
+接收方发送确认报文: seqnum = 4, acknum = 4, checksum = 6422, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 6422, JJJJJJJJJJJJJJJJJJJJ
+接收方重新发送上次的确认报文: seqnum = 4, acknum = 4, checksum = 6422, ....................
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 3851, KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
+接收方发送确认报文: seqnum = 5, acknum = 5, checksum = 3851, ....................
+发送方收到ACK回复: seqnum = 4, acknum = 4, checksum = 6422, ....................
+发送方窗口变化前
+( 4 5 )
+发送方窗口发生变化后
+( 5 )
+发送方收到ACK回复: seqnum = 5, acknum = 5, checksum = 3851, ....................
+发送方窗口变化前
+( 5 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 6, acknum = -1, checksum = 1280, LLLLLLLLLLLLLLLLLLLL
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 64244, MMMMMMMMMMMMMMMMMMMM
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 61681, NNNNNNNNNNNNNNNNNNNN
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 59110, OOOOOOOOOOOOOOOOOOOO
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 6, acknum = -1, checksum = 1280, MLLLLLLLLLLLLLLLLLLL
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 3851, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 64244, MMMMMMMMMMMMMMMMMMMM
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 3851, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 61681, NNNNNNNNNNNNNNNNNNNN
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 3851, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 6, acknum = -1, checksum = 1280, LLLLLLLLLLLLLLLLLLLL
+发送方定时器时间到，重发上次发送的报文: seqnum = 7, acknum = -1, checksum = 64244, MMMMMMMMMMMMMMMMMMMM
+发送方定时器时间到，重发上次发送的报文: seqnum = 0, acknum = -1, checksum = 61681, NNNNNNNNNNNNNNNNNNNN
+发送方定时器时间到，重发上次发送的报文: seqnum = 1, acknum = -1, checksum = 59110, OOOOOOOOOOOOOOOOOOOO
+收到3个重复ack，执行快速重传: seqnum = 6, acknum = -1, checksum = 1280, LLLLLLLLLLLLLLLLLLLL
+收到重复ack = 5执行快速重传
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 1280, LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = 6, acknum = 6, checksum = 1280, ....................
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 64244, MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
+接收方发送确认报文: seqnum = 7, acknum = 7, checksum = 64244, ....................
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 61681, NNNNNNNNNNNNNNNNNNNN
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
+接收方发送确认报文: seqnum = 0, acknum = 0, checksum = 61681, ....................
+发送方收到ACK回复: seqnum = 6, acknum = 6, checksum = 1280, ....................
+发送方窗口变化前
+( 6 7 0 1 )
+发送方窗口发生变化后
+( 7 0 1 )
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 59110, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 59110, ....................
+发送方收到ACK回复: seqnum = 0, acknum = 0, checksum = 61681, ....................
+发送方窗口变化前
+( 7 0 1 )
+发送方窗口发生变化后
+( 1 )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 6, acknum = -1, checksum = 1280, LLLLLLLLLLLLLLLLLLLL
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 59110, ....................
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 59110, ....................
+发送方窗口变化前
+( 1 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 2, acknum = -1, checksum = 56539, PPPPPPPPPPPPPPPPPPPP
+发送方发送报文: seqnum = 3, acknum = -1, checksum = 53968, QQQQQQQQQQQQQQQQQQQQ
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 51397, RRRRRRRRRRRRRRRRRRRR
+发送方发送报文: seqnum = 5, acknum = -1, checksum = 48826, SSSSSSSSSSSSSSSSSSSS
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 56539, PPPPPPPPPPPPPPPPPPPP
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
+接收方发送确认报文: seqnum = 2, acknum = 2, checksum = 56539, ....................
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 53968, QQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = 3, acknum = 3, checksum = 53968, ....................
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 51397, RRRRRRRRRRRRRRRRRRRR
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = 4, acknum = 4, checksum = 51397, ....................
+发送方收到ACK回复: seqnum = 2, acknum = 2, checksum = 56539, /...................
+发送方窗口变化前
+( 2 3 4 5 )
+发送方窗口发生变化后
+( 3 4 5 )
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 48826, SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
+接收方发送确认报文: seqnum = 5, acknum = 5, checksum = 48826, ....................
+发送方收到ACK回复: seqnum = 3, acknum = 3, checksum = 53968, ....................
+发送方窗口变化前
+( 3 4 5 )
+发送方窗口发生变化后
+( 4 5 )
+发送方收到ACK回复: seqnum = 4, acknum = 4, checksum = 51397, ....................
+发送方窗口变化前
+( 4 5 )
+发送方窗口发生变化后
+( 5 )
+发送方收到ACK回复: seqnum = 5, acknum = 5, checksum = 48826, ....................
+发送方窗口变化前
+( 5 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 6, acknum = -1, checksum = 46255, TTTTTTTTTTTTTTTTTTTT
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 43684, UUUUUUUUUUUUUUUUUUUU
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 41121, VVVVVVVVVVVVVVVVVVVV
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 38550, WWWWWWWWWWWWWWWWWWWW
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 46255, TTTTTTTTTTTTTTTTTTTT
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
+接收方发送确认报文: seqnum = 6, acknum = 6, checksum = 46255, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = -999999, acknum = -1, checksum = 43684, UUUUUUUUUUUUUUUUUUUU
+接收方重新发送上次的确认报文: seqnum = 6, acknum = 6, checksum = 46255, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 41121, VVVVVVVVVVVVVVVVVVVV
+接收方重新发送上次的确认报文: seqnum = 6, acknum = 6, checksum = 46255, ....................
+发送方收到ACK回复: seqnum = 6, acknum = 6, checksum = 46255, ....................
+发送方窗口变化前
+( 6 7 0 1 )
+发送方窗口发生变化后
+( 7 0 1 )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 38550, WWWWWWWWWWWWWWWWWWWW
+接收方重新发送上次的确认报文: seqnum = 6, acknum = 6, checksum = 46255, ....................
+收到3个重复ack，执行快速重传: seqnum = 7, acknum = -1, checksum = 43684, UUUUUUUUUUUUUUUUUUUU
+收到重复ack = 6执行快速重传
+发送方定时器时间到，重发上次发送的报文: seqnum = 7, acknum = -1, checksum = 43684, UUUUUUUUUUUUUUUUUUUU
+发送方定时器时间到，重发上次发送的报文: seqnum = 0, acknum = -1, checksum = 41121, VVVVVVVVVVVVVVVVVVVV
+发送方定时器时间到，重发上次发送的报文: seqnum = 1, acknum = -1, checksum = 38550, WWWWWWWWWWWWWWWWWWWW
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 43684, UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
+接收方发送确认报文: seqnum = 7, acknum = 7, checksum = 43684, ....................
+发送方收到ACK回复: seqnum = 7, acknum = 7, checksum = 43684, ....................
+发送方窗口变化前
+( 7 0 1 )
+发送方窗口发生变化后
+( 0 1 )
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 41121, VVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
+接收方发送确认报文: seqnum = 0, acknum = 0, checksum = 41121, ....................
+发送方收到ACK回复: seqnum = 0, acknum = 0, checksum = 41121, ....................
+发送方窗口变化前
+( 0 1 )
+发送方窗口发生变化后
+( 1 )
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 38550, WWWWWWWWWWWWWWWWWWWW
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 38550, ....................
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 38550, ....................
+发送方窗口变化前
+( 1 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 2, acknum = -1, checksum = 35979, XXXXXXXXXXXXXXXXXXXX
+发送方发送报文: seqnum = 3, acknum = -1, checksum = 33408, YYYYYYYYYYYYYYYYYYYY
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 30837, ZZZZZZZZZZZZZZZZZZZZ
+发送方发送报文: seqnum = 5, acknum = -1, checksum = 29551, AAAAAAAAAAAAAAAAAAAA
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 35979, XXXXXXXXXXXXXXXXXXXX
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
+接收方发送确认报文: seqnum = 2, acknum = 2, checksum = 35979, ....................
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 33408, YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
+接收方发送确认报文: seqnum = 3, acknum = 3, checksum = 33408, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 2, acknum = -1, checksum = 35979, XXXXXXXXXXXXXXXXXXXX
+发送方定时器时间到，重发上次发送的报文: seqnum = 3, acknum = -1, checksum = 33408, YYYYYYYYYYYYYYYYYYYY
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 30837, ZZZZZZZZZZZZZZZZZZZZ
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 29551, AAAAAAAAAAAAAAAAAAAA
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 30837, ZZZZZZZZZZZZZZZZZZZZ
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
+接收方发送确认报文: seqnum = 4, acknum = 4, checksum = 30837, ....................
+发送方收到ACK回复: seqnum = 2, acknum = 2, checksum = 35979, ....................
+发送方窗口变化前
+( 2 3 4 5 )
+发送方窗口发生变化后
+( 3 4 5 )
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 5, acknum = -1, checksum = 29551, BAAAAAAAAAAAAAAAAAAA
+接收方重新发送上次的确认报文: seqnum = 4, acknum = 4, checksum = 30837, ....................
+发送方收到ACK回复: seqnum = 4, acknum = 4, checksum = 30837, ....................
+发送方窗口变化前
+( 3 4 5 )
+发送方窗口发生变化后
+( 5 )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 2, acknum = -1, checksum = 35979, XXXXXXXXXXXXXXXXXXXX
+接收方重新发送上次的确认报文: seqnum = 4, acknum = 4, checksum = 30837, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 33408, YYYYYYYYYYYYYYYYYYYY
+接收方重新发送上次的确认报文: seqnum = 4, acknum = 4, checksum = 30837, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 30837, ZZZZZZZZZZZZZZZZZZZZ
+接收方重新发送上次的确认报文: seqnum = 4, acknum = 4, checksum = 30837, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 29551, AAAAAAAAAAAAAAAAAAAA
+收到3个重复ack，执行快速重传: seqnum = 5, acknum = -1, checksum = 29551, AAAAAAAAAAAAAAAAAAAA
+收到重复ack = 4执行快速重传
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 29551, AAAAAAAAAAAAAAAAAAAA
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
+接收方发送确认报文: seqnum = 5, acknum = 5, checksum = 29551, ....................
+发送方收到ACK回复: seqnum = 5, acknum = 5, checksum = 29551, ....................
+发送方窗口变化前
+( 5 )
+发送方窗口发生变化后
+( )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 29551, AAAAAAAAAAAAAAAAAAAA
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 29551, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 29551, AAAAAAAAAAAAAAAAAAAA
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 29551, ....................
+发送方发送报文: seqnum = 6, acknum = -1, checksum = 26980, BBBBBBBBBBBBBBBBBBBB
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 24409, CCCCCCCCCCCCCCCCCCCC
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 21846, DDDDDDDDDDDDDDDDDDDD
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 19275, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 26980, BBBBBBBBBBBBBBBBBBBB
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
+接收方发送确认报文: seqnum = 6, acknum = 6, checksum = 26980, ....................
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 24409, CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
+接收方发送确认报文: seqnum = 7, acknum = 7, checksum = 24409, ....................
+发送方收到ACK回复: seqnum = 6, acknum = 6, checksum = 26980, ....................
+发送方窗口变化前
+( 6 7 0 1 )
+发送方窗口发生变化后
+( 7 0 1 )
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 21846, DDDDDDDDDDDDDDDDDDDD
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
+接收方发送确认报文: seqnum = 0, acknum = 0, checksum = 21846, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = -999999, acknum = -1, checksum = 19275, EEEEEEEEEEEEEEEEEEEE
+接收方重新发送上次的确认报文: seqnum = 0, acknum = 0, checksum = 21846, ....................
+发送方收到ACK回复: seqnum = 7, acknum = 7, checksum = 24409, ....................
+发送方窗口变化前
+( 7 0 1 )
+发送方窗口发生变化后
+( 0 1 )
+发送方收到ACK回复: seqnum = 0, acknum = 0, checksum = 21846, ....................
+发送方窗口变化前
+( 0 1 )
+发送方窗口发生变化后
+( 1 )
+发送方定时器时间到，重发上次发送的报文: seqnum = 1, acknum = -1, checksum = 19275, EEEEEEEEEEEEEEEEEEEE
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 19275, EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 19275, ....................
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 19275, ....................
+发送方窗口变化前
+( 1 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 2, acknum = -1, checksum = 16704, FFFFFFFFFFFFFFFFFFFF
+发送方发送报文: seqnum = 3, acknum = -1, checksum = 14133, GGGGGGGGGGGGGGGGGGGG
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 11562, HHHHHHHHHHHHHHHHHHHH
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 16704, FFFFFFFFFFFFFFFFFFFF
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
+接收方发送确认报文: seqnum = 2, acknum = 2, checksum = 16704, ....................
+发送方发送报文: seqnum = 5, acknum = -1, checksum = 8991, IIIIIIIIIIIIIIIIIIII
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 14133, GGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = 3, acknum = 3, checksum = 14133, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 8991, IIIIIIIIIIIIIIIIIIII
+接收方重新发送上次的确认报文: seqnum = 3, acknum = 3, checksum = 14133, ....................
+发送方收到ACK回复: seqnum = 2, acknum = 2, checksum = 16704, ....................
+发送方窗口变化前
+( 2 3 4 5 )
+发送方窗口发生变化后
+( 3 4 5 )
+发送方收到ACK回复: seqnum = 3, acknum = 3, checksum = 14133, ....................
+发送方窗口变化前
+( 3 4 5 )
+发送方窗口发生变化后
+( 4 5 )
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 11562, HHHHHHHHHHHHHHHHHHHH
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 8991, IIIIIIIIIIIIIIIIIIII
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 11562, HHHHHHHHHHHHHHHHHHHH
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
+接收方发送确认报文: seqnum = 4, acknum = 4, checksum = 11562, ....................
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 8991, IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
+接收方发送确认报文: seqnum = 5, acknum = 5, checksum = 8991, ....................
+发送方收到ACK回复: seqnum = 4, acknum = 4, checksum = 11562, ....................
+发送方窗口变化前
+( 4 5 )
+发送方窗口发生变化后
+( 5 )
+发送方收到ACK回复: seqnum = 5, acknum = 5, checksum = 8991, ....................
+发送方窗口变化前
+( 5 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 6, acknum = -1, checksum = 6420, JJJJJJJJJJJJJJJJJJJJ
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 3849, KKKKKKKKKKKKKKKKKKKK
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 1286, LLLLLLLLLLLLLLLLLLLL
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 64250, MMMMMMMMMMMMMMMMMMMM
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 6420, JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
+接收方发送确认报文: seqnum = 6, acknum = 6, checksum = 6420, ....................
+发送方收到ACK回复: seqnum = 6, acknum = 6, checksum = 6420, ....................
+发送方窗口变化前
+( 6 7 0 1 )
+发送方窗口发生变化后
+( 7 0 1 )
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 7, acknum = -1, checksum = 3849, LKKKKKKKKKKKKKKKKKKK
+接收方重新发送上次的确认报文: seqnum = 6, acknum = 6, checksum = 6420, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 1286, LLLLLLLLLLLLLLLLLLLL
+接收方重新发送上次的确认报文: seqnum = 6, acknum = 6, checksum = 6420, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 64250, MMMMMMMMMMMMMMMMMMMM
+接收方重新发送上次的确认报文: seqnum = 6, acknum = 6, checksum = 6420, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 7, acknum = -1, checksum = 3849, KKKKKKKKKKKKKKKKKKKK
+发送方定时器时间到，重发上次发送的报文: seqnum = 0, acknum = -1, checksum = 1286, LLLLLLLLLLLLLLLLLLLL
+发送方定时器时间到，重发上次发送的报文: seqnum = 1, acknum = -1, checksum = 64250, MMMMMMMMMMMMMMMMMMMM
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = -999999, acknum = -1, checksum = 1286, LLLLLLLLLLLLLLLLLLLL
+接收方重新发送上次的确认报文: seqnum = 6, acknum = 6, checksum = 6420, ....................
+收到3个重复ack，执行快速重传: seqnum = 7, acknum = -1, checksum = 3849, KKKKKKKKKKKKKKKKKKKK
+收到重复ack = 6执行快速重传
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = -999999, acknum = -1, checksum = 64250, MMMMMMMMMMMMMMMMMMMM
+接收方重新发送上次的确认报文: seqnum = 6, acknum = 6, checksum = 6420, ....................
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 3849, KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
+接收方发送确认报文: seqnum = 7, acknum = 7, checksum = 3849, ....................
+发送方收到ACK回复: seqnum = 7, acknum = 7, checksum = 3849, ....................
+发送方窗口变化前
+( 7 0 1 )
+发送方窗口发生变化后
+( 0 1 )
+发送方定时器时间到，重发上次发送的报文: seqnum = 0, acknum = -1, checksum = 1286, LLLLLLLLLLLLLLLLLLLL
+发送方定时器时间到，重发上次发送的报文: seqnum = 1, acknum = -1, checksum = 64250, MMMMMMMMMMMMMMMMMMMM
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 1286, LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = 0, acknum = 0, checksum = 1286, ....................
+发送方收到ACK回复: seqnum = 0, acknum = 0, checksum = 1286, ....................
+发送方窗口变化前
+( 0 1 )
+发送方窗口发生变化后
+( 1 )
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 64250, MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 64250, ....................
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 64250, ....................
+发送方窗口变化前
+( 1 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 2, acknum = -1, checksum = 61679, NNNNNNNNNNNNNNNNNNNN
+发送方发送报文: seqnum = 3, acknum = -1, checksum = 59108, OOOOOOOOOOOOOOOOOOOO
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 56537, PPPPPPPPPPPPPPPPPPPP
+发送方发送报文: seqnum = 5, acknum = -1, checksum = 53966, QQQQQQQQQQQQQQQQQQQQ
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 61679, NNNNNNNNNNNNNNNNNNNN
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
+接收方发送确认报文: seqnum = 2, acknum = 2, checksum = 61679, ....................
+发送方收到ACK回复: seqnum = 2, acknum = 2, checksum = 61679, ....................
+发送方窗口变化前
+( 2 3 4 5 )
+发送方窗口发生变化后
+( 3 4 5 )
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 59108, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
+接收方发送确认报文: seqnum = 3, acknum = 3, checksum = 59108, ....................
+发送方收到ACK回复: seqnum = 3, acknum = 3, checksum = 59108, ....................
+发送方窗口变化前
+( 3 4 5 )
+发送方窗口发生变化后
+( 4 5 )
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 56537, PPPPPPPPPPPPPPPPPPPP
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
+接收方发送确认报文: seqnum = 4, acknum = 4, checksum = 56537, ....................
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 53966, QQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = 5, acknum = 5, checksum = 53966, ....................
+发送方收到ACK回复: seqnum = 4, acknum = 4, checksum = 56537, ....................
+发送方窗口变化前
+( 4 5 )
+发送方窗口发生变化后
+( 5 )
+发送方收到ACK回复: seqnum = 5, acknum = 5, checksum = 53966, ....................
+发送方窗口变化前
+( 5 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 6, acknum = -1, checksum = 51395, RRRRRRRRRRRRRRRRRRRR
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 48824, SSSSSSSSSSSSSSSSSSSS
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 46261, TTTTTTTTTTTTTTTTTTTT
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 43690, UUUUUUUUUUUUUUUUUUUU
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 51395, RRRRRRRRRRRRRRRRRRRR
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = 6, acknum = 6, checksum = 51395, ....................
+发送方收到ACK回复: seqnum = 6, acknum = 6, checksum = 51395, ....................
+发送方窗口变化前
+( 6 7 0 1 )
+发送方窗口发生变化后
+( 7 0 1 )
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 48824, SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
+接收方发送确认报文: seqnum = 7, acknum = 7, checksum = 48824, ....................
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 46261, TTTTTTTTTTTTTTTTTTTT
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
+接收方发送确认报文: seqnum = 0, acknum = 0, checksum = 46261, ....................
+发送方收到ACK回复: seqnum = 0, acknum = 0, checksum = 46261, ....................
+发送方窗口变化前
+( 7 0 1 )
+发送方窗口发生变化后
+( 1 )
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 43690, UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 43690, ....................
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 43690, ....................
+发送方窗口变化前
+( 1 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 2, acknum = -1, checksum = 41119, VVVVVVVVVVVVVVVVVVVV
+发送方发送报文: seqnum = 3, acknum = -1, checksum = 38548, WWWWWWWWWWWWWWWWWWWW
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 35977, XXXXXXXXXXXXXXXXXXXX
+发送方发送报文: seqnum = 5, acknum = -1, checksum = 33406, YYYYYYYYYYYYYYYYYYYY
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 41119, VVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
+接收方发送确认报文: seqnum = 2, acknum = 2, checksum = 41119, ....................
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 38548, WWWWWWWWWWWWWWWWWWWW
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = 3, acknum = 3, checksum = 38548, ....................
+发送方收到ACK回复: seqnum = 2, acknum = 2, checksum = 41119, ....................
+发送方窗口变化前
+( 2 3 4 5 )
+发送方窗口发生变化后
+( 3 4 5 )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 33406, YYYYYYYYYYYYYYYYYYYY
+接收方重新发送上次的确认报文: seqnum = 3, acknum = 3, checksum = 38548, ....................
+发送方收到ACK回复: seqnum = 3, acknum = 3, checksum = 38548, ....................
+发送方窗口变化前
+( 3 4 5 )
+发送方窗口发生变化后
+( 4 5 )
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 35977, XXXXXXXXXXXXXXXXXXXX
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 33406, YYYYYYYYYYYYYYYYYYYY
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 35977, XXXXXXXXXXXXXXXXXXXX
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
+接收方发送确认报文: seqnum = 4, acknum = 4, checksum = 35977, ....................
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 33406, YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
+接收方发送确认报文: seqnum = 5, acknum = 5, checksum = 33406, ....................
+发送方收到ACK回复: seqnum = 4, acknum = 4, checksum = 35977, ....................
+发送方窗口变化前
+( 4 5 )
+发送方窗口发生变化后
+( 5 )
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 33406, YYYYYYYYYYYYYYYYYYYY
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 33406, YYYYYYYYYYYYYYYYYYYY
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 33406, ....................
+发送方收到ACK回复: seqnum = 5, acknum = 5, checksum = 33406, ....................
+发送方窗口变化前
+( 5 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 6, acknum = -1, checksum = 30835, ZZZZZZZZZZZZZZZZZZZZ
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 29549, AAAAAAAAAAAAAAAAAAAA
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 26986, BBBBBBBBBBBBBBBBBBBB
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 24415, CCCCCCCCCCCCCCCCCCCC
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 30835, ZZZZZZZZZZZZZZZZZZZZ
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
+接收方发送确认报文: seqnum = 6, acknum = 6, checksum = 30835, ....................
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 29549, AAAAAAAAAAAAAAAAAAAA
+******模拟网络环境******：向上递交给应用层数据：AAAAAAAAAAAAAAAAAAAA
+接收方发送确认报文: seqnum = 7, acknum = 7, checksum = 29549, ....................
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 26986, BBBBBBBBBBBBBBBBBBBB
+******模拟网络环境******：向上递交给应用层数据：BBBBBBBBBBBBBBBBBBBB
+接收方发送确认报文: seqnum = 0, acknum = 0, checksum = 26986, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 6, acknum = -1, checksum = 30835, ZZZZZZZZZZZZZZZZZZZZ
+发送方定时器时间到，重发上次发送的报文: seqnum = 7, acknum = -1, checksum = 29549, AAAAAAAAAAAAAAAAAAAA
+发送方定时器时间到，重发上次发送的报文: seqnum = 0, acknum = -1, checksum = 26986, BBBBBBBBBBBBBBBBBBBB
+发送方定时器时间到，重发上次发送的报文: seqnum = 1, acknum = -1, checksum = 24415, CCCCCCCCCCCCCCCCCCCC
+发送方收到ACK回复: seqnum = 6, acknum = 6, checksum = 30835, ....................
+发送方窗口变化前
+( 6 7 0 1 )
+发送方窗口发生变化后
+( 7 0 1 )
+发送方收到ACK回复: seqnum = 7, acknum = 7, checksum = 29549, ....................
+发送方窗口变化前
+( 7 0 1 )
+发送方窗口发生变化后
+( 0 1 )
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 24415, CCCCCCCCCCCCCCCCCCCC
+******模拟网络环境******：向上递交给应用层数据：CCCCCCCCCCCCCCCCCCCC
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 24415, ....................
+发送方收到ACK回复: seqnum = 0, acknum = 0, checksum = 26986, ....................
+发送方窗口变化前
+( 0 1 )
+发送方窗口发生变化后
+( 1 )
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 24415, ....................
+发送方窗口变化前
+( 1 )
+发送方窗口发生变化后
+( )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 7, acknum = -1, checksum = 29549, AAAAAAAAAAAAAAAAAAAA
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 24415, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 26986, BBBBBBBBBBBBBBBBBBBB
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 24415, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 24415, CCCCCCCCCCCCCCCCCCCC
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 24415, ....................
+发送方发送报文: seqnum = 2, acknum = -1, checksum = 21844, DDDDDDDDDDDDDDDDDDDD
+发送方发送报文: seqnum = 3, acknum = -1, checksum = 19273, EEEEEEEEEEEEEEEEEEEE
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 16702, FFFFFFFFFFFFFFFFFFFF
+发送方发送报文: seqnum = 5, acknum = -1, checksum = 14131, GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 21844, DDDDDDDDDDDDDDDDDDDD
+******模拟网络环境******：向上递交给应用层数据：DDDDDDDDDDDDDDDDDDDD
+接收方发送确认报文: seqnum = 2, acknum = 2, checksum = 21844, ....................
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 19273, EEEEEEEEEEEEEEEEEEEE
+******模拟网络环境******：向上递交给应用层数据：EEEEEEEEEEEEEEEEEEEE
+接收方发送确认报文: seqnum = 3, acknum = 3, checksum = 19273, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 2, acknum = -1, checksum = 21844, DDDDDDDDDDDDDDDDDDDD
+发送方定时器时间到，重发上次发送的报文: seqnum = 3, acknum = -1, checksum = 19273, EEEEEEEEEEEEEEEEEEEE
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 16702, FFFFFFFFFFFFFFFFFFFF
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 14131, GGGGGGGGGGGGGGGGGGGG
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 16702, FFFFFFFFFFFFFFFFFFFF
+******模拟网络环境******：向上递交给应用层数据：FFFFFFFFFFFFFFFFFFFF
+接收方发送确认报文: seqnum = 4, acknum = 4, checksum = 16702, ....................
+发送方收到ACK回复: seqnum = 3, acknum = 3, checksum = 19273, ....................
+发送方窗口变化前
+( 2 3 4 5 )
+发送方窗口发生变化后
+( 4 5 )
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 14131, GGGGGGGGGGGGGGGGGGGG
+******模拟网络环境******：向上递交给应用层数据：GGGGGGGGGGGGGGGGGGGG
+接收方发送确认报文: seqnum = 5, acknum = 5, checksum = 14131, ....................
+发送方收到ACK回复: seqnum = 4, acknum = 4, checksum = 16702, ....................
+发送方窗口变化前
+( 4 5 )
+发送方窗口发生变化后
+( 5 )
+发送方收到ACK回复: seqnum = 5, acknum = 5, checksum = 14131, ....................
+发送方窗口变化前
+( 5 )
+发送方窗口发生变化后
+( )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 2, acknum = -1, checksum = 21844, EDDDDDDDDDDDDDDDDDDD
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 14131, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 19273, EEEEEEEEEEEEEEEEEEEE
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 14131, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 14131, GGGGGGGGGGGGGGGGGGGG
+接收方重新发送上次的确认报文: seqnum = 5, acknum = 5, checksum = 14131, ....................
+发送方发送报文: seqnum = 6, acknum = -1, checksum = 11560, HHHHHHHHHHHHHHHHHHHH
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 8989, IIIIIIIIIIIIIIIIIIII
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 6426, JJJJJJJJJJJJJJJJJJJJ
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 11560, HHHHHHHHHHHHHHHHHHHH
+******模拟网络环境******：向上递交给应用层数据：HHHHHHHHHHHHHHHHHHHH
+接收方发送确认报文: seqnum = 6, acknum = 6, checksum = 11560, ....................
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 3855, KKKKKKKKKKKKKKKKKKKK
+发送方收到ACK回复: seqnum = 6, acknum = 6, checksum = 11560, ....................
+发送方窗口变化前
+( 6 7 0 1 )
+发送方窗口发生变化后
+( 7 0 1 )
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 8989, IIIIIIIIIIIIIIIIIIII
+******模拟网络环境******：向上递交给应用层数据：IIIIIIIIIIIIIIIIIIII
+接收方发送确认报文: seqnum = 7, acknum = 7, checksum = 8989, ....................
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 6426, JJJJJJJJJJJJJJJJJJJJ
+******模拟网络环境******：向上递交给应用层数据：JJJJJJJJJJJJJJJJJJJJ
+接收方发送确认报文: seqnum = 0, acknum = 0, checksum = 6426, ....................
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 3855, KKKKKKKKKKKKKKKKKKKK
+******模拟网络环境******：向上递交给应用层数据：KKKKKKKKKKKKKKKKKKKK
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 3855, ....................
+发送方收到ACK回复: seqnum = 7, acknum = 7, checksum = 8989, /...................
+发送方窗口变化前
+( 7 0 1 )
+发送方窗口发生变化后
+( 0 1 )
+发送方收到ACK回复: seqnum = 0, acknum = 0, checksum = 6426, ....................
+发送方窗口变化前
+( 0 1 )
+发送方窗口发生变化后
+( 1 )
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 3855, /...................
+发送方窗口变化前
+( 1 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 2, acknum = -1, checksum = 1284, LLLLLLLLLLLLLLLLLLLL
+发送方发送报文: seqnum = 3, acknum = -1, checksum = 64248, MMMMMMMMMMMMMMMMMMMM
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 61677, NNNNNNNNNNNNNNNNNNNN
+发送方发送报文: seqnum = 5, acknum = -1, checksum = 59106, OOOOOOOOOOOOOOOOOOOO
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 1284, LLLLLLLLLLLLLLLLLLLL
+******模拟网络环境******：向上递交给应用层数据：LLLLLLLLLLLLLLLLLLLL
+接收方发送确认报文: seqnum = 2, acknum = 2, checksum = 1284, ....................
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 3, acknum = -1, checksum = 64248, NMMMMMMMMMMMMMMMMMMM
+接收方重新发送上次的确认报文: seqnum = 2, acknum = 2, checksum = 1284, ....................
+发送方收到ACK回复: seqnum = 2, acknum = 2, checksum = 1284, ....................
+发送方窗口变化前
+( 2 3 4 5 )
+发送方窗口发生变化后
+( 3 4 5 )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 59106, POOOOOOOOOOOOOOOOOOO
+接收方重新发送上次的确认报文: seqnum = 2, acknum = 2, checksum = 1284, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 3, acknum = -1, checksum = 64248, MMMMMMMMMMMMMMMMMMMM
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 61677, NNNNNNNNNNNNNNNNNNNN
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 59106, OOOOOOOOOOOOOOOOOOOO
+接收方没有正确收到发送方的报文,数据校验错误: seqnum = 3, acknum = -1, checksum = 64248, NMMMMMMMMMMMMMMMMMMM
+接收方重新发送上次的确认报文: seqnum = 2, acknum = 2, checksum = 1284, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 61677, NNNNNNNNNNNNNNNNNNNN
+接收方重新发送上次的确认报文: seqnum = 2, acknum = 2, checksum = 1284, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 59106, OOOOOOOOOOOOOOOOOOOO
+接收方重新发送上次的确认报文: seqnum = 2, acknum = 2, checksum = 1284, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 3, acknum = -1, checksum = 64248, MMMMMMMMMMMMMMMMMMMM
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 61677, NNNNNNNNNNNNNNNNNNNN
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 59106, OOOOOOOOOOOOOOOOOOOO
+收到3个重复ack，执行快速重传: seqnum = 3, acknum = -1, checksum = 64248, MMMMMMMMMMMMMMMMMMMM
+收到重复ack = 2执行快速重传
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 61677, NNNNNNNNNNNNNNNNNNNN
+接收方重新发送上次的确认报文: seqnum = 2, acknum = 2, checksum = 1284, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 3, acknum = -1, checksum = 64248, MMMMMMMMMMMMMMMMMMMM
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 61677, NNNNNNNNNNNNNNNNNNNN
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 59106, OOOOOOOOOOOOOOOOOOOO
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 5, acknum = -1, checksum = 59106, OOOOOOOOOOOOOOOOOOOO
+接收方重新发送上次的确认报文: seqnum = 2, acknum = 2, checksum = 1284, ....................
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 64248, MMMMMMMMMMMMMMMMMMMM
+******模拟网络环境******：向上递交给应用层数据：MMMMMMMMMMMMMMMMMMMM
+接收方发送确认报文: seqnum = 3, acknum = 3, checksum = 64248, ....................
+发送方收到ACK回复: seqnum = 3, acknum = 3, checksum = 64248, ....................
+发送方窗口变化前
+( 3 4 5 )
+发送方窗口发生变化后
+( 4 5 )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 3, acknum = -1, checksum = 64248, MMMMMMMMMMMMMMMMMMMM
+接收方重新发送上次的确认报文: seqnum = 3, acknum = 3, checksum = 64248, ....................
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 61677, NNNNNNNNNNNNNNNNNNNN
+******模拟网络环境******：向上递交给应用层数据：NNNNNNNNNNNNNNNNNNNN
+接收方发送确认报文: seqnum = 4, acknum = 4, checksum = 61677, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 61677, NNNNNNNNNNNNNNNNNNNN
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 59106, OOOOOOOOOOOOOOOOOOOO
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 61677, ONNNNNNNNNNNNNNNNNNN
+接收方重新发送上次的确认报文: seqnum = 4, acknum = 4, checksum = 61677, ....................
+发送方收到ACK回复: seqnum = 4, acknum = 4, checksum = 61677, ....................
+发送方窗口变化前
+( 4 5 )
+发送方窗口发生变化后
+( 5 )
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 59106, OOOOOOOOOOOOOOOOOOOO
+******模拟网络环境******：向上递交给应用层数据：OOOOOOOOOOOOOOOOOOOO
+接收方发送确认报文: seqnum = 5, acknum = 5, checksum = 59106, ....................
+发送方收到ACK回复: seqnum = 5, acknum = 5, checksum = 59106, ....................
+发送方窗口变化前
+( 5 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 6, acknum = -1, checksum = 56535, PPPPPPPPPPPPPPPPPPPP
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 53964, QQQQQQQQQQQQQQQQQQQQ
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 51401, RRRRRRRRRRRRRRRRRRRR
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 48830, SSSSSSSSSSSSSSSSSSSS
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 56535, PPPPPPPPPPPPPPPPPPPP
+******模拟网络环境******：向上递交给应用层数据：PPPPPPPPPPPPPPPPPPPP
+接收方发送确认报文: seqnum = 6, acknum = 6, checksum = 56535, ....................
+发送方收到ACK回复: seqnum = 6, acknum = 6, checksum = 56535, ....................
+发送方窗口变化前
+( 6 7 0 1 )
+发送方窗口发生变化后
+( 7 0 1 )
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 53964, QQQQQQQQQQQQQQQQQQQQ
+******模拟网络环境******：向上递交给应用层数据：QQQQQQQQQQQQQQQQQQQQ
+接收方发送确认报文: seqnum = 7, acknum = 7, checksum = 53964, ....................
+发送方收到ACK回复: seqnum = 7, acknum = 7, checksum = 53964, ....................
+发送方窗口变化前
+( 7 0 1 )
+发送方窗口发生变化后
+( 0 1 )
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 51401, RRRRRRRRRRRRRRRRRRRR
+******模拟网络环境******：向上递交给应用层数据：RRRRRRRRRRRRRRRRRRRR
+接收方发送确认报文: seqnum = 0, acknum = 0, checksum = 51401, ....................
+发送方收到ACK回复: seqnum = 0, acknum = 0, checksum = 51401, ....................
+发送方窗口变化前
+( 0 1 )
+发送方窗口发生变化后
+( 1 )
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 48830, SSSSSSSSSSSSSSSSSSSS
+******模拟网络环境******：向上递交给应用层数据：SSSSSSSSSSSSSSSSSSSS
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 48830, ....................
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 48830, ....................
+发送方窗口变化前
+( 1 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 2, acknum = -1, checksum = 46259, TTTTTTTTTTTTTTTTTTTT
+发送方发送报文: seqnum = 3, acknum = -1, checksum = 43688, UUUUUUUUUUUUUUUUUUUU
+发送方发送报文: seqnum = 4, acknum = -1, checksum = 41117, VVVVVVVVVVVVVVVVVVVV
+发送方发送报文: seqnum = 5, acknum = -1, checksum = 38546, WWWWWWWWWWWWWWWWWWWW
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 4, acknum = -1, checksum = 41117, VVVVVVVVVVVVVVVVVVVV
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 48830, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 2, acknum = -1, checksum = 46259, TTTTTTTTTTTTTTTTTTTT
+发送方定时器时间到，重发上次发送的报文: seqnum = 3, acknum = -1, checksum = 43688, UUUUUUUUUUUUUUUUUUUU
+发送方定时器时间到，重发上次发送的报文: seqnum = 4, acknum = -1, checksum = 41117, VVVVVVVVVVVVVVVVVVVV
+发送方定时器时间到，重发上次发送的报文: seqnum = 5, acknum = -1, checksum = 38546, WWWWWWWWWWWWWWWWWWWW
+接收方正确收到发送方的报文: seqnum = 2, acknum = -1, checksum = 46259, TTTTTTTTTTTTTTTTTTTT
+******模拟网络环境******：向上递交给应用层数据：TTTTTTTTTTTTTTTTTTTT
+接收方发送确认报文: seqnum = 2, acknum = 2, checksum = 46259, ....................
+接收方正确收到发送方的报文: seqnum = 3, acknum = -1, checksum = 43688, UUUUUUUUUUUUUUUUUUUU
+******模拟网络环境******：向上递交给应用层数据：UUUUUUUUUUUUUUUUUUUU
+接收方发送确认报文: seqnum = 3, acknum = 3, checksum = 43688, ....................
+发送方收到ACK回复: seqnum = 2, acknum = 2, checksum = 46259, ....................
+发送方窗口变化前
+( 2 3 4 5 )
+发送方窗口发生变化后
+( 3 4 5 )
+接收方正确收到发送方的报文: seqnum = 4, acknum = -1, checksum = 41117, VVVVVVVVVVVVVVVVVVVV
+******模拟网络环境******：向上递交给应用层数据：VVVVVVVVVVVVVVVVVVVV
+接收方发送确认报文: seqnum = 4, acknum = 4, checksum = 41117, ....................
+发送方收到ACK回复: seqnum = 3, acknum = 3, checksum = 43688, ....................
+发送方窗口变化前
+( 3 4 5 )
+发送方窗口发生变化后
+( 4 5 )
+接收方正确收到发送方的报文: seqnum = 5, acknum = -1, checksum = 38546, WWWWWWWWWWWWWWWWWWWW
+******模拟网络环境******：向上递交给应用层数据：WWWWWWWWWWWWWWWWWWWW
+接收方发送确认报文: seqnum = 5, acknum = 5, checksum = 38546, ....................
+发送方收到ACK回复: seqnum = 4, acknum = 4, checksum = 41117, /...................
+发送方窗口变化前
+( 4 5 )
+发送方窗口发生变化后
+( 5 )
+发送方收到ACK回复: seqnum = 5, acknum = 5, checksum = 38546, ....................
+发送方窗口变化前
+( 5 )
+发送方窗口发生变化后
+( )
+发送方发送报文: seqnum = 6, acknum = -1, checksum = 35975, XXXXXXXXXXXXXXXXXXXX
+发送方发送报文: seqnum = 7, acknum = -1, checksum = 33404, YYYYYYYYYYYYYYYYYYYY
+发送方发送报文: seqnum = 0, acknum = -1, checksum = 30841, ZZZZZZZZZZZZZZZZZZZZ
+发送方发送报文: seqnum = 1, acknum = -1, checksum = 29872, EOF                 
+接收方正确收到发送方的报文: seqnum = 6, acknum = -1, checksum = 35975, XXXXXXXXXXXXXXXXXXXX
+******模拟网络环境******：向上递交给应用层数据：XXXXXXXXXXXXXXXXXXXX
+接收方发送确认报文: seqnum = 6, acknum = 6, checksum = 35975, ....................
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 30841, ZZZZZZZZZZZZZZZZZZZZ
+接收方重新发送上次的确认报文: seqnum = 6, acknum = 6, checksum = 35975, ....................
+发送方收到ACK回复: seqnum = 6, acknum = 6, checksum = 35975, ....................
+发送方窗口变化前
+( 6 7 0 1 )
+发送方窗口发生变化后
+( 7 0 1 )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 29872, EOF                 
+接收方重新发送上次的确认报文: seqnum = 6, acknum = 6, checksum = 35975, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 7, acknum = -1, checksum = 33404, YYYYYYYYYYYYYYYYYYYY
+发送方定时器时间到，重发上次发送的报文: seqnum = 0, acknum = -1, checksum = 30841, ZZZZZZZZZZZZZZZZZZZZ
+发送方定时器时间到，重发上次发送的报文: seqnum = 1, acknum = -1, checksum = 29872, EOF                 
+接收方正确收到发送方的报文: seqnum = 7, acknum = -1, checksum = 33404, YYYYYYYYYYYYYYYYYYYY
+******模拟网络环境******：向上递交给应用层数据：YYYYYYYYYYYYYYYYYYYY
+接收方发送确认报文: seqnum = 7, acknum = 7, checksum = 33404, ....................
+发送方收到ACK回复: seqnum = 7, acknum = 7, checksum = 33404, ....................
+发送方窗口变化前
+( 7 0 1 )
+发送方窗口发生变化后
+( 0 1 )
+接收方正确收到发送方的报文: seqnum = 0, acknum = -1, checksum = 30841, ZZZZZZZZZZZZZZZZZZZZ
+******模拟网络环境******：向上递交给应用层数据：ZZZZZZZZZZZZZZZZZZZZ
+接收方发送确认报文: seqnum = 0, acknum = 0, checksum = 30841, ....................
+接收方正确收到发送方的报文: seqnum = 1, acknum = -1, checksum = 29872, EOF                 
+******模拟网络环境******：向上递交给应用层数据：EOF                  
+接收方发送确认报文: seqnum = 1, acknum = 1, checksum = 29872, ....................
+发送方定时器时间到，重发上次发送的报文: seqnum = 0, acknum = -1, checksum = 30841, ZZZZZZZZZZZZZZZZZZZZ
+发送方定时器时间到，重发上次发送的报文: seqnum = 1, acknum = -1, checksum = 29872, EOF                 
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 0, acknum = -1, checksum = 30841, ZZZZZZZZZZZZZZZZZZZZ
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 29872, ....................
+发送方收到ACK回复: seqnum = 1, acknum = 1, checksum = 29872, ....................
+发送方窗口变化前
+( 0 1 )
+发送方窗口发生变化后
+( )
+接收方没有正确收到发送方的报文,报文序号不对: seqnum = 1, acknum = -1, checksum = 29872, EOF                 
+接收方重新发送上次的确认报文: seqnum = 1, acknum = 1, checksum = 29872, ....................
+******模拟网络环境******：模拟网络环境已发送完应用层数据，关闭模拟网络环境
+已发送应用层Message个数: 105
+发送到网络层数据Packet个数: 202
+网络层丢失的数据Packet个数: 23
+网络层损坏的数据pakcet个数:18
+发送到网络层确认Packet个数:179
+网络层丢失的确认Packet个数: 20
+网络层损坏的确认Packet个数: 13
+

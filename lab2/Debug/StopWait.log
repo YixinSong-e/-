@@ -1,0 +1,33 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  stdafx.cpp
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  TCPRdtSender.cpp
+c:\users\adminstrion\desktop\计算机网络\lab2\tcprdtsender.cpp(100): warning C4018: “<”: 有符号/无符号不匹配
+  TCPRdtReceiver.cpp
+  StopWaitRdtSender.cpp
+  StopWaitRdtReceiver.cpp
+  StopWait.cpp
+c:\users\adminstrion\desktop\计算机网络\lab2\stopwait.cpp(21): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(243): note: 参见“freopen”的声明
+  SRRdtSender.cpp
+  SRRdtReceiver.cpp
+c:\users\adminstrion\desktop\计算机网络\lab2\srrdtreceiver.cpp(150): warning C4018: “<”: 有符号/无符号不匹配
+  GBNRdtSender.cpp
+c:\users\adminstrion\desktop\计算机网络\lab2\gbnrdtsender.cpp(86): warning C4018: “<”: 有符号/无符号不匹配
+  GBNRdtReceiver.cpp
+  正在生成代码...
+GBNRdtReceiver.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+netsimlib.lib(DataStructure.obj) : warning LNK4099: 未找到 PDB“netsimlib.pdb”(使用“netsimlib.lib(DataStructure.obj)”或在“C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\netsimlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+netsimlib.lib(FileAppMessageFeeder.obj) : warning LNK4099: 未找到 PDB“netsimlib.pdb”(使用“netsimlib.lib(FileAppMessageFeeder.obj)”或在“C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\netsimlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+netsimlib.lib(FileAppMessageWriter.obj) : warning LNK4099: 未找到 PDB“netsimlib.pdb”(使用“netsimlib.lib(FileAppMessageWriter.obj)”或在“C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\netsimlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+netsimlib.lib(NetworkService.obj) : warning LNK4099: 未找到 PDB“netsimlib.pdb”(使用“netsimlib.lib(NetworkService.obj)”或在“C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\netsimlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+netsimlib.lib(NetworkServiceConfiguration.obj) : warning LNK4099: 未找到 PDB“netsimlib.pdb”(使用“netsimlib.lib(NetworkServiceConfiguration.obj)”或在“C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\netsimlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+netsimlib.lib(NetworkServiceSimulator.obj) : warning LNK4099: 未找到 PDB“netsimlib.pdb”(使用“netsimlib.lib(NetworkServiceSimulator.obj)”或在“C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\netsimlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+netsimlib.lib(RandomEvent.obj) : warning LNK4099: 未找到 PDB“netsimlib.pdb”(使用“netsimlib.lib(RandomEvent.obj)”或在“C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\netsimlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+netsimlib.lib(RandomEventList.obj) : warning LNK4099: 未找到 PDB“netsimlib.pdb”(使用“netsimlib.lib(RandomEventList.obj)”或在“C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\netsimlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+netsimlib.lib(RdtReceiver.obj) : warning LNK4099: 未找到 PDB“netsimlib.pdb”(使用“netsimlib.lib(RdtReceiver.obj)”或在“C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\netsimlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+netsimlib.lib(RdtSender.obj) : warning LNK4099: 未找到 PDB“netsimlib.pdb”(使用“netsimlib.lib(RdtSender.obj)”或在“C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\netsimlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+netsimlib.lib(stdafx.obj) : warning LNK4099: 未找到 PDB“netsimlib.pdb”(使用“netsimlib.lib(stdafx.obj)”或在“C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\netsimlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+netsimlib.lib(Tool.obj) : warning LNK4099: 未找到 PDB“netsimlib.pdb”(使用“netsimlib.lib(Tool.obj)”或在“C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\netsimlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+netsimlib.lib(Utils.obj) : warning LNK4099: 未找到 PDB“netsimlib.pdb”(使用“netsimlib.lib(Utils.obj)”或在“C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\netsimlib.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  StopWait.vcxproj -> C:\Users\Adminstrion\Desktop\计算机网络\lab2\Debug\StopWait.exe
